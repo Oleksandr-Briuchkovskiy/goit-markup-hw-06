@@ -31,7 +31,7 @@ img {
 }
 
 .container {
-  max-width: 320px;
+  min-width: 320px;
   padding-left: 16px;
   padding-right: 16px;
   margin-left: auto;
@@ -50,6 +50,7 @@ img {
   box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
   padding-top: 16px;
   padding-bottom: 16px;
+  min-width: 320px;
 }
 
 header .container {
