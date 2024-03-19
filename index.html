@@ -271,7 +271,10 @@
           <ul class="list-our-portfolio">
             <li class="item-our-portfolio">
               <div class="item-our-portfolio-images">
-                <img src="./images/banking-app.jpg" alt="banking-app" width="360" />
+                <picture>
+                  <source srcset="./images/banking-app-mobile.jpg 1x, ./images/banking-app-mobile@2x.jpg 2x" media="(max-width: 767px)" />
+                  <img src="./images/banking-app-mobile.jpg" alt="banking-app" />
+                </picture>
                 <p class="overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud
                   Storage App
@@ -479,7 +482,7 @@
         <nav class="nav-mobile">
           <ul class="list-nav-mobile">
             <li class="list-nav-item-mobile">
-              <a class="link" href="./index.html">Studio</a>
+              <a class="link studio" href="./index.html">Studio</a>
             </li>
             <li class="list-nav-item-mobile">
               <a class="link" href="">Portfolio</a>
@@ -491,8 +494,8 @@
         </nav>
         <address class="header-address-mobile">
           <ul class="header-address-list-mobile">
+            <li><a class="header-contact-mobile telephone" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             <li><a class="header-contact-mobile" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="header-contact-mobile" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
           </ul>
         </address>
         <div class="box-social-link-mobile">
