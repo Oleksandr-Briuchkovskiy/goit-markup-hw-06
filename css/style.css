@@ -83,6 +83,16 @@ header .container {
   display: none;
 }
 
+@media (min-width: 768px) {
+  .list-nav {
+    display: flex;
+  }
+
+  .menu-button {
+    display: none;
+  }
+}
+
 .list-nav .list-nav-item .current {
   position: relative;
   color: #404bbf;
