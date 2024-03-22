@@ -198,6 +198,9 @@ header .container {
     line-height: 1.5;
     letter-spacing: 0.02em;
   }
+  .logotype-header {
+    margin-right: 76px;
+  }
 }
 
 /* banner */
@@ -211,6 +214,7 @@ header .container {
   padding-bottom: 72px;
   min-width: 320px;
   margin: 0 auto;
+  max-width: 320px;
 }
 
 /* bannet 320px */
@@ -293,6 +297,7 @@ header .container {
   .banner {
     padding-top: 112px;
     padding-bottom: 112px;
+    max-width: 768px;
   }
 
   .title-banner {
@@ -307,6 +312,7 @@ header .container {
   .banner {
     padding-top: 188px;
     padding-bottom: 188px;
+    max-width: 1440px;
   }
 }
 
@@ -421,7 +427,6 @@ header .container {
 .list-our-team {
   gap: 72px;
   flex-direction: column;
-  margin: 0 12px;
 }
 
 .text-item .title {
@@ -477,16 +482,15 @@ header .container {
     row-gap: 64px;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .item-our-team {
-    width: calc((100% - 24px) / 2);
+    width: 264px;
   }
 
   .our-team {
     background-color: #f4f4fd;
-    padding-left: 108px;
-    padding-right: 108px;
   }
 
   .container-our-team {
@@ -638,6 +642,9 @@ header .container {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.container-logo-and-socsal {
   margin-bottom: 72px;
 }
 
@@ -776,6 +783,9 @@ header .container {
 
   .input-subscribe {
     width: 264px;
+  }
+  .logotype-footer {
+    justify-content: left;
   }
 }
 
