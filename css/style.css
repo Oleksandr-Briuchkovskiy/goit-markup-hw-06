@@ -792,6 +792,7 @@ header .container {
 @media (min-width: 1158px) {
   .container-logo-and-socsal {
     flex-direction: row;
+    margin-bottom: 0;
   }
   .footer .container {
     flex-direction: row;
