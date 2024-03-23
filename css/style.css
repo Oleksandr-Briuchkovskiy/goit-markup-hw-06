@@ -759,6 +759,7 @@ header .container {
   .container-logo-and-socsal {
     display: flex;
     flex-direction: row;
+    margin-bottom: 0;
   }
 
   .container-button {
